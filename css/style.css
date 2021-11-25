@@ -1,0 +1,103 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    min-height:80vh ;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url(../image/pexels-pixabay-210243.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav a{
+    color: white!important;
+}
+.navbar-brand , header h1 , .h2 , .menu h4 ,.carousel-item h5{
+    font-family:cursive;
+}
+.nav-item{
+    font-size: 20px;
+    padding: 3px;
+}
+.get{
+    color: white;
+    /* width: auto; */
+    border: 1px solid white ;
+    border-radius:30px;
+    /* background-color: #09EDE9; */
+
+}
+
+.get{
+    font-size: medium;
+   
+}
+.get:hover{
+   background-color: #8ef1ec;
+   color: #202020;
+}
+
+
+
+#testimonials{
+    color: white;
+    background-image: linear-gradient(rgba(95, 82, 82, 0.5),rgba(130, 132, 209, 0.5)),url(../image/pexels-pixabay-459225.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 35vh;
+}
+
+.carousel-inner{
+    height: 500px;
+}
+ .carousel-control-next{
+    opacity: .0;
+}
+.carousel-control-prev{
+    opacity: .0;
+}
+
+
+.card{
+    background-color: #cecece ;
+    color: black;
+    opacity:.8;
+    transition: 1s;
+    transform: scale(1);
+}
+
+.card:hover{
+    opacity:1;
+    transform: scale(1.1);
+}
+
+footer{
+    background-color: #a0a0a0c9;
+}
+footer ul{
+    list-style: none;
+}
+.footerfollow ul li{
+    display: inline-block;
+     margin:2px 7px;
+}
+.footerfollow ul li a{
+    padding-right: 2px;
+    font-size: 20px;
+    color: #202020;
+}
+
+.footer-h6{
+   font-size: 18px;
+   font-family: serif;
+   font-weight: bold;
+   color: #00606b;
+}
+.footerpages a{
+    color: #202020;
+    font-size: 15px;
+}
+.footerpages a:hover,.footerfollow ul li a:hover{
+ color: #e07313;
+}
